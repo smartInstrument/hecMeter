@@ -1,23 +1,23 @@
 # Overview
-The full name is "Grove Kit for Win10 Iot Core & Azure Platform". This Kit and Guide book will help quickly familiar win10 Iot and Azure. The hardware party is very to use. We make several classic scenes project.
+The full name of hecMeter is high end configure Meter. This kind of meter have full function of meter that could help customer finish their work with high efficiency.
+We make serveral classic usage using our meter. It is working fine with our test.
+
 ![Data flow](data-flow.png)
 ![Physical](physical.jpg)
 
 # GetStarted
-## Setup your Raspberry
-### Install Win10 IoT Core
-1. Download IOT Core Dashboard from https://developer.microsoft.com/en-us/windows/iot/Downloads
-2. Open the Windows 10 IoT Core Dashboard you downloaded and installed from the Get the tools page.
-3. Click "Set up a new device".
-4. Select Raspberry Pi 3 from the dropdown.
-5. Enter device name, password and Wi-Fi network to connect to.
-6. Download and install Windows 10 IoT Core on your SD card.
-7. A window will pop up to show you the progress. This step can take several minutes depending on the speed of your SD card.
-8. Put SD Card into Raspberry
-9. Connect display with your Raspberry, HDMI or lvds output.
-10. Power on
-11. Connect WI-FI to internet
-12. Remember the ip address from AP
+## Setup your hecMeter
+### Prepare the necessary working condition for meter
+1. In order to run the meter graful, A good power adapter is needed. Any DC24v
+   power supply would be fine but note that the current of power supply should
+   be more than 1A.
+2. Plus in the sensor connecter. Make sure the sensor you hold is suport by our
+   meter.  
+3. Put SD Card into Meter.
+4. Plus in the power connecter, then long press power key. The meter should run
+   up and show the value base on sensor type.  
+5. Optional, install dp_tool.exe on PC and connect the meter using usb connector.
+
 
 ### Setup Azure IOTHUB Devices Connect String on TPM
 1. Open browser, login win10 iot core web console "http://ip-address:8080", Account: Administrator, Password: (You enter on IOT Core Dashboard)
@@ -36,7 +36,7 @@ The app help to connect Azure iothub, collect Grove sensor value and control Gro
 5. "Deploy" click "GO", waiting a few minutes
 6. Refresh, you can find AzureGroveKit on Apps row
 
-### Test AzureGroveKit App
+### Test meter using dp_tool.exe on PC
 1. Power off raspberry, Insert GrovePi module.
 2. Insert necessary Grove on GrovePi, Connect map below:
 
