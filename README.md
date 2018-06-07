@@ -3,7 +3,7 @@ The full name of hecMeter is high end configure Meter. This kind of meter have f
 We make serveral classic usage using our meter. It is working fine with our test.
 
 ![Data flow](data-flow.png)
-![Physical](physical.jpg)
+![Physical](preview.PNG)
 
 # GetStarted
 ## Setup your hecMeter
@@ -61,3 +61,15 @@ The app help to connect Azure iothub, collect Grove sensor value and control Gro
 ##### communicate:
   1.RS485.
   2.USB
+
+### Status of development
+  Module Name   | satus
+  --------------| ---------
+  web server    | OK(verify)
+  usb touch     | OK(verify)
+  lvgl display  | OK(verify)
+  mtp server    | portting finish,need verify
+  sqlite support| portting finish,need verify
+  .xls  support | portting finish,need verify
+  mp3401 sensor | need more code to be write
+ 
