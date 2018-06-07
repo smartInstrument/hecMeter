@@ -68,8 +68,11 @@ The app help to connect Azure iothub, collect Grove sensor value and control Gro
   web server    | OK(verify)
   usb touch     | OK(verify)
   lvgl display  | OK(verify)
+  vold  support | portting finish,need verify
   mtp server    | portting finish,need verify
   sqlite support| portting finish,need verify
   .xls  support | portting finish,need verify
   mp3401 sensor | need more code to be write
+  data logging  | need more code to be write
+  meter logic   | pending
  
