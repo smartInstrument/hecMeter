@@ -31,18 +31,17 @@ The app help to connect Azure iothub, collect Grove sensor value and control Gro
 ### Test meter using dp_tool.exe on PC
 1. Power off meter, Insert power/sensor connector.
 2. Note that the terminal has the meanning of bellow:
-
-  Grove| Name of Port
-  -----| ------------
-  V+   | Sensor power supply
-  S+   | Sensor positive signal
-  S-   | Sensor negative signal
-  GND  | Sendsor power ground
-  A+   | RS485 A+
-  A-   | RS485 A-
-  DP   | USB D+
-  DN   | USB D-
-  SH   | Connect to earth ground
+	  Grove| Name of Port
+	  -----| ------------
+	  V+   | Sensor power supply
+	  S+   | Sensor positive signal
+	  S-   | Sensor negative signal
+	  GND  | Sendsor power ground
+	  A+   | RS485 A+
+	  A-   | RS485 A-
+	  DP   | USB D+
+	  DN   | USB D-
+	  SH   | Connect to earth ground
 3. Power on meter by press power key, and then PLUS the usb on.
 4. Open dp_tool.exe to connect to meter
 
@@ -54,17 +53,16 @@ The app help to connect Azure iothub, collect Grove sensor value and control Gro
 	内部尺寸：31.2mm 23.2mm 12.6mm
 	材料：聚碳，带阻燃
 	耐温：200+度，高温，耐性好，不容易变形
-![Physical](isolate_power.png)
+	![Physical](isolate_power.png)
 ##### support table for input signal
-  Input signal  |  Is Support
-  --------------| ---------
-  mV  signal    |  Yes
-  0-5V          |  Yes
-  0-10V         |  Yes
-  4-20mA        |  Yes
-  digtal TTL    |  Yes
-  digtal RS485  |  Yes
-
+	  Input signal  |  Is Support
+	  --------------| ---------
+	  mV  signal    |  Yes
+	  0-5V          |  Yes
+	  0-10V         |  Yes
+	  4-20mA        |  Yes
+	  digtal TTL    |  Yes
+	  digtal RS485  |  Yes
 ##### communicate:
 ######RS485
       Rs485 work as communication port.
