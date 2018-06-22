@@ -58,9 +58,13 @@ The app help to connect Azure iothub, collect Grove sensor value and control Gro
 
 ![Physical](isolate_power.png)
 ##### input.
+  1.mV loadcell signal
+  2.standard 4-20mA/0-5V/0-10V
+  3.digital termperature/humity sensor support
+  4.RS485 digital signal input
 ##### communicate:
-  1.RS485.
-  2.USB
+  1.RS485 work as communication port.
+  2.USB work as MTP port, It's easy to browser the file on windows.
 
 ### Status of development
   Module Name   | satus
@@ -70,9 +74,11 @@ The app help to connect Azure iothub, collect Grove sensor value and control Gro
   lvgl display  | OK(verify)
   vold  support | portting finish,need verify
   mtp server    | portting finish,need verify
-  sqlite support| portting finish,need verify
+  SQLite support| OK(verify)
   .xls  support | portting finish,need verify
-  mp3401 sensor | need more code to be write
-  data logging  | need more code to be write
-  meter logic   | pending
+  mp3401 sensor | OK(verify)
+  data logging  | SQLite database support(verify)
+  meter logic   | almost finished, need portting filter logic
+  GPRS/4G comm  | need portting
+  Modbus support| portting finish, need verify
  
