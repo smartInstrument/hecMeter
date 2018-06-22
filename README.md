@@ -46,18 +46,16 @@ The app help to connect Azure iothub, collect Grove sensor value and control Gro
 3. Power on meter by press power key, and then PLUS the usb on.
 4. Open dp_tool.exe to connect to meter
 
-#### Detail of the meter
-#####  Power manage: use
-外形尺寸：33.5mm 25.5mm 14.7mm
-
-内部尺寸：31.2mm 23.2mm 12.6mm
-
-材料：聚碳，带阻燃
-
-耐温：200+度，高温，耐性好，不容易变形
-
+#### Detail of the hardware
+#####  Processor
+     One core of A7 with 580MHz
+#####  Isolate power module
+	外形尺寸：33.5mm 25.5mm 14.7mm
+	内部尺寸：31.2mm 23.2mm 12.6mm
+	材料：聚碳，带阻燃
+	耐温：200+度，高温，耐性好，不容易变形
 ![Physical](isolate_power.png)
-##### input.
+##### support table for input signal
   Input signal  |  Is Support
   --------------| ---------
   mV  signal    |  Yes
@@ -68,8 +66,10 @@ The app help to connect Azure iothub, collect Grove sensor value and control Gro
   digtal RS485  |  Yes
 
 ##### communicate:
-  1.RS485 work as communication port.
-  2.USB work as MTP port, It's easy to browser the file on windows.
+######RS485
+      Rs485 work as communication port.
+######USB
+      Usb work as MTP port, It's easy to browser the file on windows.
 
 ### Status of development
   Module Name   | satus
