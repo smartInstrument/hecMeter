@@ -58,10 +58,15 @@ The app help to connect Azure iothub, collect Grove sensor value and control Gro
 
 ![Physical](isolate_power.png)
 ##### input.
-  1.mV loadcell signal
-  2.standard 4-20mA/0-5V/0-10V
-  3.digital termperature/humity sensor support
-  4.RS485 digital signal input
+  Input signal  |  Is Support
+  --------------| ---------
+  mV  signal    |  Yes
+  0-5V          |  Yes
+  0-10V         |  Yes
+  4-20mA        |  Yes
+  digtal TTL    |  Yes
+  digtal RS485  |  Yes
+
 ##### communicate:
   1.RS485 work as communication port.
   2.USB work as MTP port, It's easy to browser the file on windows.
