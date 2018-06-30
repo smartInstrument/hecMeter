@@ -31,17 +31,17 @@ The app help to connect Azure iothub, collect Grove sensor value and control Gro
 ### Test meter using dp_tool.exe on PC
 1. Power off meter, Insert power/sensor connector.
 2. Note that the terminal has the meanning of bellow
-  Grove| Name of Port
-  -----| ------------
-  V+   | Sensor power supply
-  S+   | Sensor positive signal
-  S-   | Sensor negative signal
-  GND  | Sendsor power ground
-  A+   | RS485 A+
-  A-   | RS485 A-
-  DP   | USB D+
-  DN   | USB D-
-  SH   | Connect to earth ground
+Grove| Name of Port
+-----| ------------
+V+   | Sensor power supply
+S+   | Sensor positive signal
+S-   | Sensor negative signal
+GND  | Sendsor power ground
+A+   | RS485 A+
+A-   | RS485 A-
+DP   | USB D+
+DN   | USB D-
+SH   | Connect to earth ground
 3. Power on meter by press power key, and then PLUS the usb on.
 4. Open dp_tool.exe to connect to meter
 
@@ -55,14 +55,14 @@ The app help to connect Azure iothub, collect Grove sensor value and control Gro
 	耐温：200+度，高温，耐性好，不容易变形
 	![Physical](isolate_power.png)
 ##### support table for input signal
-  Input signal  |  Is Support
-  --------------| ---------
-  mV  signal    |  Yes
-  0-5V          |  Yes
-  0-10V         |  Yes
-  4-20mA        |  Yes
-  digtal TTL    |  Yes
-  digtal RS485  |  Yes
+Input signal  |  Is Support
+--------------| ---------
+mV  signal    |  Yes
+0-5V          |  Yes
+0-10V         |  Yes
+4-20mA        |  Yes
+digtal TTL    |  Yes
+digtal RS485  |  Yes
 ##### communicate:
 ######RS485
   Rs485 work as communication port.
@@ -71,18 +71,18 @@ The app help to connect Azure iothub, collect Grove sensor value and control Gro
 ![Physical](mass_storage.PNG)
 
 ### Status of development
-  Module Name   | satus
-  --------------| ---------
-  web server    | OK(verify)
-  usb touch     | OK(verify)
-  lvgl display  | OK(verify)
-  vold  support | OK(verify)
-  mtp server    | use mass storage instead,OK
-  SQLite support| OK(verify)
-  .xls  support | OK(verify)
-  mp3401 sensor | OK(verify)
-  data logging  | SQLite database support(verify)
-  meter logic   | almost finished, need portting filter logic
-  GPRS/4G comm  | need portting
-  Modbus support| portting finish, need verify
+Module Name   | satus
+--------------| ---------
+web server    | OK(verify)
+usb touch     | OK(verify)
+lvgl display  | OK(verify)
+vold  support | OK(verify)
+mtp server    | use mass storage instead,OK
+SQLite support| OK(verify)
+.xls  support | OK(verify)
+mp3401 sensor | OK(verify)
+data logging  | SQLite database support(verify)
+meter logic   | almost finished, need portting filter logic
+GPRS/4G comm  | need portting
+Modbus support| portting finish, need verify
  
