@@ -69,7 +69,7 @@ digtal RS485  |  Yes
 ######USB
   Usb work as usb massstorage port, It's easy to browser the file on windows like bellow:
 
-![Physical](mass_storage.PNG)
+![Physical](massstorage.PNG)
 
 ### Status of development
 Module Name   | satus
