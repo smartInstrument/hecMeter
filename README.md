@@ -68,6 +68,7 @@ digtal RS485  |  Yes
   Rs485 work as communication port.
 ######USB
   Usb work as usb massstorage port, It's easy to browser the file on windows like bellow:
+
 ![Physical](mass_storage.PNG)
 
 ### Status of development
