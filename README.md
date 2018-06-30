@@ -65,9 +65,10 @@ The app help to connect Azure iothub, collect Grove sensor value and control Gro
   digtal RS485  |  Yes
 ##### communicate:
 ######RS485
-      Rs485 work as communication port.
+  Rs485 work as communication port.
 ######USB
-      Usb work as MTP port, It's easy to browser the file on windows.
+  Usb work as usb massstorage port, It's easy to browser the file on windows like bellow:
+![Physical](mass_storage.PNG)
 
 ### Status of development
   Module Name   | satus
@@ -75,10 +76,10 @@ The app help to connect Azure iothub, collect Grove sensor value and control Gro
   web server    | OK(verify)
   usb touch     | OK(verify)
   lvgl display  | OK(verify)
-  vold  support | portting finish,need verify
-  mtp server    | portting finish,need verify
+  vold  support | OK(verify)
+  mtp server    | use mass storage instead,OK
   SQLite support| OK(verify)
-  .xls  support | portting finish,need verify
+  .xls  support | OK(verify)
   mp3401 sensor | OK(verify)
   data logging  | SQLite database support(verify)
   meter logic   | almost finished, need portting filter logic
