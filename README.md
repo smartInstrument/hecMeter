@@ -4,7 +4,6 @@ We make serveral classic usage using our meter. It is working fine with our test
 
 ![Data flow](data-flow.png)
 ![Physical](preview.PNG)
-![Physical](massstorage.PNG)
 
 # GetStarted
 ## Setup your hecMeter
@@ -70,7 +69,7 @@ digtal RS485  |  Yes
 (2)USB
    Usb work as usb massstorage port, It's easy to browser the file on windows like bellow:
 
-![Physical](massstorage.PNG)
+![Physical](massstorage.png)
 
 ### Status of development
 Module Name   | satus
