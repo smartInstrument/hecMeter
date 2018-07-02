@@ -4,6 +4,7 @@ We make serveral classic usage using our meter. It is working fine with our test
 
 ![Data flow](data-flow.png)
 ![Physical](preview.PNG)
+![Physical](massstorage.PNG)
 
 # GetStarted
 ## Setup your hecMeter
