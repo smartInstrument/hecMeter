@@ -64,10 +64,8 @@ mV  signal    |  Yes
 digtal TTL    |  Yes
 digtal RS485  |  Yes
 ##### communicate:
-(1)RS485
-   Rs485 work as communication port.
-(2)USB
-   Usb work as usb massstorage port, It's easy to browser the file on windows like bellow:
+	(1)RS485: Rs485 work as communication port.
+	(2)USB: Usb work as usb massstorage port, It's easy to browser the file on windows like bellow:
 
 ![Physical](massstorage.png)
 
