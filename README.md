@@ -84,4 +84,5 @@ data logging  | SQLite database support(verify)
 meter logic   | almost finished, need portting filter logic
 GPRS/4G comm  | need portting
 Modbus support| portting finish, need verify
+bluetooth     | need portting
  
